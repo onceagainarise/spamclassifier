@@ -1,0 +1,57 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('hello.jpg'); /* Replace 'background-image.jpg' with the actual path to your background image */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #fff; /* Set your desired text color */
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(52, 44, 50, 0.8); /* Set the background color with some transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for depth */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #e5d9d9; /* Set label text color */
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Set button background color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Change button background color on hover */
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333; /* Set result text color */
+}
